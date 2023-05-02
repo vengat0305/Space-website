@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Sawarabi+Mincho&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Paytone One', sans-serif;
+  font-family: 'Sawarabi Mincho', serif;
+  background-color: #fff;
+}
+
+/* global css */
+img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.btn {
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  /* customize */
+  background-color: #1c2042;
+  color: white;
+  border: 2px solid #1c2042;
+}
+
+@media screen and (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets) */
+
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops) */
+
+@media (min-width: 991px) {
+.starship-img-container{
+  position: relative;
+  }
+  .navbar-container{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: -46rem;
+    padding: 4rem;
+    background-color: black ;
+    height: 1.5rem;
+    
+  }
+
+  .navbar-container:hover{
+  background-color: #1c2042;
+  color: #fff;
+  opacity: 0.9;
+  }
+  .tittle{
+    font-size: 2.7rem;
+    font-family: 'Paytone One';
+    color: #fff;
+    margin-top: -1.3rem;
+  }
+  .tittle:hover{
+  color: rgb(0, 0, 0);
+  }
+  .header-list{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 1.2rem;
+    color: white;
+    margin-left: 6rem;
+    font-size: 15px;
+    font-family: 'Paytone One';
+    font-weight: 300;
+  }
+  .shop{
+    font-family: 'Paytone One';
+    font-weight: 200;
+    color: #ebe8e8;
+    margin-left: 14rem;
+  }
+  .shop:hover{
+  color: rgb(0, 0, 0);
+  }
+  .menu-bar{
+    width: 2rem;
+    margin-top: -1.6rem;
+    margin-left: 18rem;
+  }
+  .space-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: -26rem;
+    padding: 4rem;
+  }
+  .space-recent{
+    font-size: 25px;
+    font-family:'Paytone One';
+    font-weight: 100;
+    color: white;
+    padding: 1rem;
+  }
+  .space-tittle{
+    font-size: 3.5rem;
+    font-family:'Paytone One';
+    color: white;
+    font-weight: 600;
+    margin-top: 1rem;
+  }
+  .btn-starship{
+    width: 13rem;
+    height: 4rem;
+    opacity: 0.9;
+    border: 2px solid #fff;
+    background-color: black;
+    color: none;
+    font-family:'Paytone One';
+    font-weight: 200;
+    border-radius: 3px;
+    margin-top: -1rem;
+  }
+  .btn:hover{
+    background-color: #fff;
+    color: black;
+    border: 3px solid black;
+  }
+  
+.viasat-img-container{
+    position: all;
+    margin-top: -0.5rem;
+  }
+  .mpower-img-container{
+    position: all;
+    margin-top: -0.5rem;
+  }
+  .Nasa-img-container{
+    position: all;
+    margin-top: -0.5rem;
+    
+  }
+.nasa-space-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: -25rem;
+    padding: 4rem;
+}
+.nasa-space-tittle{
+  font-size: 35px;
+  text-align: start;
+  color: #fff;
+  font-weight: 600;
+  font-family: 'Paytone One';
+  gap: 2rem;
+}
+.btn-nasa{
+    width: 13rem;
+    height: 4rem;
+    opacity: 0.9;
+    border: 2px solid #fff;
+    background-color: black;
+    color: none;
+    font-family:'Paytone One';
+    font-weight: 200;
+    border-radius: 3px;
+    margin-top: 1rem;
+  }
+  .btn-nasa:hover{
+    background-color: #fff;
+    color: black;
+    border: 3px solid black;
+  }
+  .footer-container{
+    margin-top: -3px;
+  }
+  .footer-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: black;
+    gap: 1.5rem;
+    
+    height: 7rem;
+    font-size: 12px;
+    font-family:'Paytone One';
+  }
+  .footer-list:hover{
+  background-color:#1c2042;
+  color: rgb(255, 255, 255);
+  opacity: 0.9;
+  }
+
+/* Extra large devices (large desktops) */
+
+@media (min-width: 1200px) {
+}
