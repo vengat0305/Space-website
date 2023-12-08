@@ -72,14 +72,15 @@ li {
     justify-content: space-around;
     margin-top: -46rem;
     padding: 4rem;
-    background-color: black ;
+    background-color: rgb(56, 56, 56) ;
     height: 1.5rem;
+    z-index: 1;
     
   }
 
   .navbar-container:hover{
-  background-color: #1c2042;
-  color: #fff;
+  background-color: #000000;
+  color: #ffffff;
   opacity: 0.9;
   }
   .tittle{
